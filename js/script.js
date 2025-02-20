@@ -5,8 +5,8 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "../assets/img/1º Avatar Projeto DivLinks.png")
+    img.setAttribute("src", "assets/img/1º Avatar Projeto DivLinks.png")
   } else {
-    img.setAttribute("src", "../assets/img/2º avatar-light.png")
+    img.setAttribute("src", "assets/img/2º avatar-light.png")
   }
 }
